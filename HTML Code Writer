@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:honeydew;">
+
+<form >
+<fieldset>
+<legend>Self Info:</legend>
+<h2 style="color:crimson;" ><b>Submit personal information</b></h2>
+First Name: <br>
+<input type= "text" name= "firstname"><br>
+Last Name: <br>
+<input type="text" name="lastname"><br>
+<input type="radio" name="gender" value="male" checked> Male <br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+
+<fieldset>
+<legend>Simple Email Prototype:</legend>
+<h2 style="color:crimson;">Send e-mail to Ishna Verma</h2>
+<form action="mailto:vdesire2641@gmail.com" method="post" enctype="text/plain"> Name:<br>
+<input type="text" name="name"><br>E-mail:<br>
+<input type="text" name="mail"><br>
+<input type="radio" name="type" value="education" checked> Education <br>
+<input type="radio" name="type" value="business" checked> Business <br>
+<input type="radio" name="type" value="personal" checked> Personal <br>
+Comment:<br>
+<input type="text" name="comment" size="100"><br><br>
+<input type="submit" value="Send">
+<input type="submit" value="Draft">
+<input type="submit" value="Clear">
+</form>
+</fieldset>
+</body>
+</html>
+

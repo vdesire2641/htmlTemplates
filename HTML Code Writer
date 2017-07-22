@@ -13,6 +13,14 @@ Last Name: <br>
 <input type="radio" name="gender" value="male" checked> Male <br>
 <input type="radio" name="gender" value="female"> Female<br>
 <input type="radio" name="gender" value="other"> Other<br>
+School Name: <br>
+<input type="text" name="schoolname">
+<select>
+  <option value="MNSU">Minnesota State University, Mankato</option>
+  <option value="UM">University of Minnesota, Twin Cities</option>
+  <option value="UIC">University of Illinois, Chicago</option>
+  <option value="UNO">University of Nebraska, Omaha</option>
+</select>
 <input type="submit" value="Submit">
 </fieldset>
 </form>
